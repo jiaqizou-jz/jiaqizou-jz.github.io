@@ -351,10 +351,6 @@ body.lightbox-open {
   font-size: 12px;
 }
 
-.authors sup {
-  line-height: 0;
-}
-
 .venue {
   color: var(--muted);
   font-style: italic;
