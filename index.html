@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Jiaqi Zou is an M.S. student in Electrical and Computer Engineering at Duke University working on reinforcement learning and computer vision."
+      content="Jiaqi Zou is an M.S. student in Electrical and Computer Engineering at Duke University working on reinforcement learning for humanoid control and medical imaging."
     />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Jiaqi Zou — Homepage" />
     <meta
       property="og:description"
-      content="Research in reinforcement learning, computer vision, medical imaging, sequential decision-making, and human-object interaction."
+      content="Research in reinforcement learning, physics-based humanoid control, learning from human motion, and medical imaging."
     />
     <meta property="og:url" content="https://jiaqizou-jz.github.io/" />
     <link rel="canonical" href="https://jiaqizou-jz.github.io/" />
     <meta name="twitter:card" content="summary" />
     <title>Jiaqi Zou — Homepage</title>
-    <link rel="stylesheet" href="./styles.css?v=20260722-7" />
+    <link rel="stylesheet" href="./styles.css?v=20261119-1" />
     <script src="./script.js?v=20260722-2" defer></script>
   </head>
   <body>
@@ -64,6 +64,16 @@
                 <span>GitHub</span>
               </a>
             </li>
+            <li>
+              <a
+                href="https://scholar.google.com/citations?user=aHTD9zAAAAAJ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="social-mark social-mark-text" aria-hidden="true">GS</span>
+                <span>Google Scholar</span>
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -84,28 +94,28 @@
             from the University of Utah.
           </p>
           <p>
-            I am fortunate to work with
+            I work with
+            <a href="https://jianghz.me/" target="_blank" rel="noreferrer">Prof. Huaizu Jiang</a>
+            at Northeastern University on physics-based humanoid soccer:
+            learning soccer skills from human motion and making them hand off
+            reliably in continuous play. At Duke, I work with
             <a href="https://ece.duke.edu/people/ehsan-abadi/" target="_blank" rel="noreferrer">Prof. Ehsan Abadi</a>
             and
             <a href="https://sites.duke.edu/navid/" target="_blank" rel="noreferrer">Prof. Navid NaderiAlizadeh</a>
-            at Duke University on reinforcement learning for CT protocol
-            optimization. I also collaborate with
-            <a href="https://jianghz.me/" target="_blank" rel="noreferrer">Prof. Huaizu Jiang</a>
-            at Northeastern University on human–object interaction in soccer.
-            Previously, I worked with
+            on reinforcement learning for patient-specific CT protocol
+            selection. Previously, I worked with
             <a href="https://zeroweight.github.io/" target="_blank" rel="noreferrer">Prof. Weitong Zhang</a>
-            at UNC–Chapel Hill on transformer-based trajectory modeling and
-            data augmentation for offline reinforcement learning.
+            at UNC–Chapel Hill on Q-function-guided data augmentation for
+            offline reinforcement learning.
           </p>
           <p>
-            <strong>Research interests.</strong> My research focuses on
-            building intelligent systems that can learn useful representations
-            and make reliable decisions from data. I am broadly interested in
-            reinforcement learning, representation learning, and diffusion
-            models. A central direction of my current work is human–object
-            interaction, where I study how models understand people, objects,
-            and their interactions over time, with broader machine learning
-            applications to medical imaging.
+            <strong>Research interests.</strong> I work on reinforcement
+            learning for whole-body control of humanoids. I am especially
+            interested in how a policy that already has skills, learned from
+            human motion and simulation, should spend a small budget of further
+            interaction to become reliable, first in simulation and eventually
+            on real robots. I also apply these ideas to medical imaging, where
+            every evaluation is expensive.
           </p>
         </section>
 
@@ -113,11 +123,18 @@
           <h2 id="updates-title">Updates</h2>
           <ul class="news-list">
             <li>
+              <span class="news-date">(Sep. 2026)</span>
+              Our paper on reinforcement learning for task-based CT protocol
+              optimization is
+              <a href="https://arxiv.org/abs/2609.13309" target="_blank" rel="noreferrer">on arXiv</a>
+              and under review at IEEE Transactions on Biomedical Engineering.
+            </li>
+            <li>
               <span class="news-date">(May 2026 — Present)</span>
               Working with
               <a href="https://jianghz.me/" target="_blank" rel="noreferrer">Prof. Huaizu Jiang</a>
-              at Northeastern University on human–object interaction in soccer
-              scenarios.
+              at Northeastern University on physics-based humanoid soccer
+              control.
             </li>
             <li>
               <span class="news-date">(Oct. 2025 — Present)</span>
@@ -129,8 +146,8 @@
             </li>
             <li>
               <span class="news-date">(Aug. 2024 — Apr. 2025)</span>
-              Researched transformer-based trajectory modeling and offline RL
-              data augmentation with
+              Researched Q-function-guided data augmentation for offline
+              reinforcement learning with
               <a href="https://zeroweight.github.io/" target="_blank" rel="noreferrer">Prof. Weitong Zhang</a>
               at UNC–Chapel Hill.
             </li>
@@ -155,7 +172,7 @@
               />
             </button>
             <div class="publication-copy">
-              <p class="publication-status">arXiv · 2026</p>
+              <p class="publication-status">Under review at IEEE TBME · arXiv 2026</p>
               <h3>
                 <a
                   href="https://arxiv.org/abs/2609.13309"
@@ -164,11 +181,11 @@
                 >Task-Based CT Protocol Optimization Using Reinforcement Learning and Virtual Imaging Trials</a>
               </h3>
               <p class="authors">
-                <strong>Jiaqi Zou*</strong>, David Fenwick*, Vahid Tarokh,
+                <strong>Jiaqi Zou<sup>*</sup></strong>, David Fenwick<sup>*</sup>, Vahid Tarokh,
                 Nicholas Felice, Jayasai Rajagopal, Anuj Kapadia, Ehsan Samei,
-                Navid NaderiAlizadeh, Ehsan Abadi
+                Navid NaderiAlizadeh<sup>†</sup>, Ehsan Abadi<sup>†</sup>
               </p>
-              <p class="equal-contribution">* Equal contribution.</p>
+              <p class="equal-contribution">* Equal contribution. † Equal supervision.</p>
               <p class="publication-links" aria-label="Publication links">
                 <a href="https://arxiv.org/abs/2609.13309" target="_blank" rel="noreferrer">[arXiv]</a>
                 <a href="https://arxiv.org/pdf/2609.13309" target="_blank" rel="noreferrer">[PDF]</a>
@@ -216,6 +233,8 @@
           <a href="https://www.linkedin.com/in/jiaqi-zou-35a391321">LinkedIn</a>
           <span aria-hidden="true">·</span>
           <a href="https://github.com/jiaqizou-jz">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://scholar.google.com/citations?user=aHTD9zAAAAAJ">Google Scholar</a>
         </p>
       </div>
     </footer>
