@@ -556,3 +556,70 @@ body.lightbox-open {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Fun page */
+.page-title {
+  margin-top: 0;
+}
+
+.pet-gallery {
+  display: grid;
+  margin-top: 20px;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pet-empty {
+  margin: 0;
+  color: var(--muted);
+  grid-column: 1 / -1;
+}
+
+.pet-card {
+  margin: 0;
+}
+
+.pet-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  padding: 0;
+  appearance: none;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  cursor: zoom-in;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.pet-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-photo:hover {
+  border-color: #c9cdd0;
+  box-shadow: 0 8px 24px rgba(48, 53, 58, 0.12);
+  transform: translateY(-2px);
+}
+
+.pet-photo:focus-visible {
+  outline: 3px solid rgba(41, 128, 185, 0.42);
+  outline-offset: 3px;
+}
+
+.pet-card figcaption {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .pet-gallery {
+    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

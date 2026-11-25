@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Photos of Jiaqi Zou's pets." />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fun — Jiaqi Zou" />
+    <meta property="og:url" content="https://jiaqizou-jz.github.io/fun.html" />
+    <link rel="canonical" href="https://jiaqizou-jz.github.io/fun.html" />
+    <title>Fun — Jiaqi Zou</title>
+    <link rel="stylesheet" href="./styles.css?v=20261125-1" />
+    <script src="./script.js?v=20261119-1" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-layout">
+      <aside class="profile-sidebar" aria-label="Profile and navigation">
+        <div class="portrait-placeholder">
+          <img
+            class="profile-photo"
+            src="./assets/self.jpg?v=1"
+            alt="Jiaqi Zou seated at a mountain overlook."
+          />
+        </div>
+
+        <div class="profile-copy">
+          <h1>Jiaqi Zou</h1>
+
+          <ul class="social-links" aria-label="Contact and social links">
+            <li>
+              <a href="mailto:jiaqi.zou@duke.edu">
+                <span class="social-mark" aria-hidden="true">@</span>
+                <span>Email</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jiaqi-zou-35a391321"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="social-mark social-mark-text" aria-hidden="true">in</span>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jiaqizou-jz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="social-mark social-mark-text" aria-hidden="true">GH</span>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://scholar.google.com/citations?user=aHTD9zAAAAAJ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="social-mark social-mark-text" aria-hidden="true">GS</span>
+                <span>Google Scholar</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="section-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="./index.html#about">About Me</a></li>
+            <li><a href="./index.html#updates">Updates</a></li>
+            <li><a href="./index.html#publications">Publications</a></li>
+            <li><a href="./fun.html" aria-current="true">Fun</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="page-content" id="main-content">
+        <section id="fun" aria-labelledby="fun-title">
+          <h2 id="fun-title" class="page-title">Fun</h2>
+          <p>My pets, who keep me company through deadlines.</p>
+
+          <!--
+            To add a photo: put the image in assets/pets/, then copy this block
+            into the gallery below and change the file name, alt text, and caption.
+
+            <figure class="pet-card">
+              <button
+                type="button"
+                class="pet-photo"
+                data-lightbox-open
+                data-lightbox-src="./assets/pets/NAME.jpg"
+                aria-label="Enlarge photo"
+                aria-haspopup="dialog"
+                aria-controls="figure-lightbox"
+              >
+                <img src="./assets/pets/NAME.jpg" alt="Describe the photo." loading="lazy" />
+              </button>
+              <figcaption>Caption</figcaption>
+            </figure>
+          -->
+          <div class="pet-gallery">
+            <p class="pet-empty">Photos coming soon.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div
+      class="figure-lightbox"
+      id="figure-lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Enlarged photo"
+      hidden
+    >
+      <button
+        class="lightbox-backdrop"
+        type="button"
+        data-lightbox-close
+        aria-label="Close enlarged photo"
+      ></button>
+      <div class="lightbox-panel">
+        <button
+          class="lightbox-close"
+          type="button"
+          data-lightbox-close
+          aria-label="Close enlarged photo"
+        >×</button>
+        <img src="" alt="" />
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© <span id="current-year">2026</span> Jiaqi Zou.</p>
+        <p>
+          <a href="mailto:jiaqi.zou@duke.edu">Email</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/jiaqi-zou-35a391321">LinkedIn</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/jiaqizou-jz">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://scholar.google.com/citations?user=aHTD9zAAAAAJ">Google Scholar</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
