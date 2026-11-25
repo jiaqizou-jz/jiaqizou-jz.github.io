@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Photos of Jiaqi Zou's pets." />
+    <meta name="description" content="Biscuit, Fu, and Pepper — Jiaqi Zou's pets." />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Fun — Jiaqi Zou" />
     <meta property="og:url" content="https://jiaqizou-jz.github.io/fun.html" />
     <link rel="canonical" href="https://jiaqizou-jz.github.io/fun.html" />
     <title>Fun — Jiaqi Zou</title>
-    <link rel="stylesheet" href="./styles.css?v=20261125-1" />
-    <script src="./script.js?v=20261119-1" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=20261125-2" />
+    <script src="./script.js?v=20261125-1" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -80,38 +80,146 @@
       </aside>
 
       <main class="page-content" id="main-content">
-        <section id="fun" aria-labelledby="fun-title">
-          <h2 id="fun-title" class="page-title">Fun</h2>
-          <p>My pets, who keep me company through deadlines.</p>
+        <div class="fun-page" id="fun">
+          <header class="fun-intro">
+            <h2 id="fun-title" class="page-title">Fun</h2>
+            <p class="fun-lede">Meet Biscuit, Fu, and Pepper.</p>
+            <ul class="pet-roster" aria-label="Pets">
+              <li style="--accent: #8b6a55">
+                <a href="#biscuit">
+                  <img src="./assets/pets/biscuit-avatar.jpg" alt="" width="160" height="160" />
+                  <span class="pet-roster-name">Biscuit</span>
+                  <span class="pet-roster-kind">Cat</span>
+                </a>
+              </li>
+              <li style="--accent: #c4622d">
+                <a href="#fu">
+                  <img src="./assets/pets/fu-avatar.jpg" alt="" width="160" height="160" />
+                  <span class="pet-roster-name">Fu</span>
+                  <span class="pet-roster-kind">Shiba Inu</span>
+                </a>
+              </li>
+              <li style="--accent: #c98a2b">
+                <a href="#pepper">
+                  <img src="./assets/pets/pepper-avatar.jpg" alt="" width="160" height="160" />
+                  <span class="pet-roster-name">Pepper</span>
+                  <span class="pet-roster-kind">Shiba Inu</span>
+                </a>
+              </li>
+            </ul>
+          </header>
 
-          <!--
-            To add a photo: put the image in assets/pets/, then copy this block
-            into the gallery below and change the file name, alt text, and caption.
-
-            <figure class="pet-card">
-              <button
-                type="button"
-                class="pet-photo"
-                data-lightbox-open
-                data-lightbox-src="./assets/pets/NAME.jpg"
-                aria-label="Enlarge photo"
-                aria-haspopup="dialog"
-                aria-controls="figure-lightbox"
-              >
-                <img src="./assets/pets/NAME.jpg" alt="Describe the photo." loading="lazy" />
+          <section class="pet-section" id="biscuit" style="--accent: #8b6a55" aria-labelledby="biscuit-title">
+            <header class="pet-head">
+              <span class="pet-index" aria-hidden="true">01</span>
+              <div>
+                <h3 id="biscuit-title">Biscuit</h3>
+                <p class="pet-meta">Cat · 11 photos</p>
+              </div>
+            </header>
+            <div class="pet-masonry">
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-01.jpg" aria-label="Enlarge: Biscuit looking up at the camera with wide blue eyes." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-01-sm.jpg" alt="Biscuit looking up at the camera with wide blue eyes." width="675" height="900" loading="lazy" decoding="async" />
               </button>
-              <figcaption>Caption</figcaption>
-            </figure>
-          -->
-          <div class="pet-gallery">
-            <p class="pet-empty">Photos coming soon.</p>
-          </div>
-        </section>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-02.jpg" aria-label="Enlarge: Biscuit leaping to swat a feather toy." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-02-sm.jpg" alt="Biscuit leaping to swat a feather toy." width="900" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-03.jpg" aria-label="Enlarge: Biscuit sitting in a metal tray with tail up." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-03-sm.jpg" alt="Biscuit sitting in a metal tray with tail up." width="506" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-04.jpg" aria-label="Enlarge: Biscuit asleep in a lap while being petted." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-04-sm.jpg" alt="Biscuit asleep in a lap while being petted." width="900" height="675" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-05.jpg" aria-label="Enlarge: Biscuit held in an arm, paws draped over it." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-05-sm.jpg" alt="Biscuit held in an arm, paws draped over it." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-06.jpg" aria-label="Enlarge: Close-up of Biscuit asleep with the tip of the tongue out." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-06-sm.jpg" alt="Close-up of Biscuit asleep with the tip of the tongue out." width="900" height="675" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-07.jpg" aria-label="Enlarge: Biscuit lying belly-up on a gray rug." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-07-sm.jpg" alt="Biscuit lying belly-up on a gray rug." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-08.jpg" aria-label="Enlarge: Biscuit resting in an arm, ears up." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-08-sm.jpg" alt="Biscuit resting in an arm, ears up." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-09.jpg" aria-label="Enlarge: Biscuit being held and looking at the camera." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-09-sm.jpg" alt="Biscuit being held and looking at the camera." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-10.jpg" aria-label="Enlarge: Biscuit sitting in a lap and looking up." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-10-sm.jpg" alt="Biscuit sitting in a lap and looking up." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="biscuit" data-lightbox-caption="Biscuit" data-lightbox-src="./assets/pets/biscuit-11.jpg" aria-label="Enlarge: Biscuit stretched out on a wooden floor." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/biscuit-11-sm.jpg" alt="Biscuit stretched out on a wooden floor." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </section>
+
+          <section class="pet-section" id="fu" style="--accent: #c4622d" aria-labelledby="fu-title">
+            <header class="pet-head">
+              <span class="pet-index" aria-hidden="true">02</span>
+              <div>
+                <h3 id="fu-title">Fu</h3>
+                <p class="pet-meta">Shiba Inu · 3 photos</p>
+              </div>
+            </header>
+            <div class="pet-masonry pet-masonry-trio">
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="fu" data-lightbox-caption="Fu" data-lightbox-src="./assets/pets/fu-01.jpg" aria-label="Enlarge: Fu smiling with tongue out, paws on a ledge." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/fu-01-sm.jpg" alt="Fu smiling with tongue out, paws on a ledge." width="900" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="fu" data-lightbox-caption="Fu" data-lightbox-src="./assets/pets/fu-02.jpg" aria-label="Enlarge: Fu sitting on a leash beside a vegetable garden." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/fu-02-sm.jpg" alt="Fu sitting on a leash beside a vegetable garden." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="fu" data-lightbox-caption="Fu" data-lightbox-src="./assets/pets/fu-03.jpg" aria-label="Enlarge: Fu lying on a tiled floor in a yellow harness." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/fu-03-sm.jpg" alt="Fu lying on a tiled floor in a yellow harness." width="900" height="900" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </section>
+
+          <section class="pet-section" id="pepper" style="--accent: #c98a2b" aria-labelledby="pepper-title">
+            <header class="pet-head">
+              <span class="pet-index" aria-hidden="true">03</span>
+              <div>
+                <h3 id="pepper-title">Pepper</h3>
+                <p class="pet-meta">Shiba Inu · 9 photos</p>
+              </div>
+            </header>
+            <div class="pet-masonry">
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-01.jpg" aria-label="Enlarge: Pepper grinning with tongue out in a green harness." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-01-sm.jpg" alt="Pepper grinning with tongue out in a green harness." width="900" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-02.jpg" aria-label="Enlarge: Pepper as a puppy on a striped blanket." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-02-sm.jpg" alt="Pepper as a puppy on a striped blanket." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-03.jpg" aria-label="Enlarge: Pepper lying upside down on a marble floor." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-03-sm.jpg" alt="Pepper lying upside down on a marble floor." width="900" height="675" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-04.jpg" aria-label="Enlarge: Pepper in an orange harness at an evening gathering." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-04-sm.jpg" alt="Pepper in an orange harness at an evening gathering." width="900" height="600" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-05.jpg" aria-label="Enlarge: Pepper held in someone's arms, smiling." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-05-sm.jpg" alt="Pepper held in someone's arms, smiling." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-06.jpg" aria-label="Enlarge: Pepper sitting on a black marble step." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-06-sm.jpg" alt="Pepper sitting on a black marble step." width="675" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-07.jpg" aria-label="Enlarge: Pepper asleep on a striped blanket." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-07-sm.jpg" alt="Pepper asleep on a striped blanket." width="900" height="675" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-08.jpg" aria-label="Enlarge: Pepper smiling while getting a chin scratch." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-08-sm.jpg" alt="Pepper smiling while getting a chin scratch." width="900" height="900" loading="lazy" decoding="async" />
+              </button>
+              <button type="button" class="pet-photo" data-lightbox-open data-lightbox-group="pepper" data-lightbox-caption="Pepper" data-lightbox-src="./assets/pets/pepper-09.jpg" aria-label="Enlarge: Pepper curled up asleep on a woven mat." aria-haspopup="dialog" aria-controls="figure-lightbox">
+                <img src="./assets/pets/pepper-09-sm.jpg" alt="Pepper curled up asleep on a woven mat." width="506" height="900" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </section>
+
+        </div>
       </main>
     </div>
 
     <div
-      class="figure-lightbox"
+      class="figure-lightbox figure-lightbox-photo"
       id="figure-lightbox"
       role="dialog"
       aria-modal="true"
@@ -131,8 +239,11 @@
           data-lightbox-close
           aria-label="Close enlarged photo"
         >×</button>
-        <img src="" alt="" />
+        <img src="./assets/pets/biscuit-01.jpg" alt="" />
+        <p class="lightbox-caption" aria-live="polite"></p>
       </div>
+      <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Previous photo">‹</button>
+      <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Next photo">›</button>
     </div>
 
     <footer class="site-footer">
