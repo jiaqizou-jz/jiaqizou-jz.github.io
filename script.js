@@ -56,11 +56,7 @@ const showLightboxItem = (trigger) => {
     lightboxImage.alt = thumb?.alt || "";
   }
   if (lightboxCaption) {
-    const label = trigger.dataset.lightboxCaption || "";
-    lightboxCaption.textContent =
-      label && currentGroup.length > 1
-        ? `${label} · ${currentIndex + 1} / ${currentGroup.length}`
-        : label;
+    lightboxCaption.textContent = trigger.dataset.lightboxCaption || "";
   }
 };
 
